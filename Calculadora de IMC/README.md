@@ -16,11 +16,11 @@ Para instalar e executar este projeto localmente, siga os passos abaixo:
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/victorlcastro-dsa/calculadora-de-imc.git
+    git clone https://github.com/victorlcastro-dsa/frontend-desafios-react.git
     ```
 2. Navegue até o diretório do projeto:
     ```sh
-    cd calculadora-de-imc
+    cd Calculadora de IMC
     ```
 3. Instale as dependências:
     ```sh
