@@ -1,10 +1,15 @@
+// react, componentesm, estáticos
+
+import Welcome from './components/Welcome'
+
 import './App.css'
 
 function App() {
 
   return (
     <div className="App">
-      <h1>Quiz App</h1>
+      <h1>Quiz de Programação</h1>
+      <Welcome />
     </div>
   )
 }
