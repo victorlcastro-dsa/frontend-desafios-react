@@ -33,7 +33,7 @@ Para iniciar o servidor de desenvolvimento, execute:
     ```sh
     npm run dev
     ```
-Abra o navegador e acesse [http://localhost:3000](http://localhost:3000) para ver a aplicação em execução.
+Abra o navegador e acesse [http://localhost:5173](http://localhost:5173) para ver a aplicação em execução.
 
 ## Estrutura do Projeto
 
