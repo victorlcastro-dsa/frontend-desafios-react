@@ -1,50 +1,43 @@
-# React + TypeScript + Vite
+# GitHub Finder (React + TypeScript)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GitHub Finder é uma aplicação web desenvolvida com React e TypeScript que permite aos usuários buscar perfis de usuários no GitHub e visualizar suas informações detalhadas.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Buscar usuários do GitHub pelo nome de usuário
+- Exibir informações detalhadas do perfil, incluindo repositórios, número de seguidores e seguindo
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React
+- TypeScript
+- Axios para requisições HTTP
+- Styled-components para estilização
 
-- Configure the top-level `parserOptions` property like this:
+## Como Executar o Projeto
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. Clone o repositório:
+  ```bash
+  git clone https://github.com/victorlcastro-dsa/frontend-desafios-react.git
+  ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+2. Navegue até o diretório do projeto:
+  ```bash
+  cd frontend-desafios-react/GitHub\ Finder\ \(React\ +\ TypeScript\)
+  ```
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+3. Instale as dependências:
+  ```bash
+  npm install
+  ```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+4. Execute a aplicação:
+  ```bash
+  npm run dev
+  ```
+
+5. Abra o navegador e acesse `http://localhost:5173/`
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests.
